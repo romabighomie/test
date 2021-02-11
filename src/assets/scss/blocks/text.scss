@@ -1,0 +1,13 @@
+.text {
+    grid-area: text;
+    
+    margin-bottom: 4rem;
+    
+    font-size: 1.6rem;
+    color: $black;
+    line-height: 1.3;
+    
+    @media (max-width: $bp-mobile) {
+        margin: 2rem 0;
+    }
+}

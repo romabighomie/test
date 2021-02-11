@@ -1,0 +1,21 @@
+@import "reset";
+@import "fonts";
+@import "vars";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: 'Montserrat';
+}
+
+/* Blocks */
+@import "blocks/container";
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/btn";
+@import "blocks/text";
+@import "blocks/info";

@@ -1,0 +1,23 @@
+.page {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "buttons"
+        "text"
+        "info";
+    grid-template-columns: 1fr;
+
+    background-color: $white;
+    border-radius: 1rem;
+    box-shadow: 5px 8px 40px rgba(#B7B7B7, 25%);
+
+    overflow: hidden;
+
+    @media (max-width: $bp-mobile) {
+        grid-template-areas:
+            "header"
+            "text"
+            "info"
+            "buttons";
+    }
+}

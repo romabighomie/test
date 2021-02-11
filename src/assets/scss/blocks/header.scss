@@ -1,0 +1,46 @@
+.header {
+    grid-area: header;
+
+    background-color: $green;
+    border-radius: 1rem 1rem 0 0;
+
+    position: relative;
+}
+
+.header__avatar {
+    display: inline-block;
+    width: 100%;
+    max-width: 20rem;
+    height: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+
+    border-radius: 1rem;
+    box-shadow: 5px 8px 16px rgba(#BEBEBE, 25%);
+    background-color: $white;
+    overflow: hidden;
+
+    position: absolute;
+    top: 4.4rem;
+
+    @media (max-width: $bp-mobile) {
+        top: 2rem;
+        max-width: 6rem;
+        max-height: 6rem;
+    }
+}
+
+.header__title {
+    padding: 4.4rem 4.4rem 13.3rem 28.8rem;
+
+    font-weight: 700;
+    font-size: 3.1rem;
+    color: $white;
+    line-height: 1.4;
+    
+    @media (max-width: $bp-mobile) {
+        padding-top: 2.4rem;
+        padding-left: 7.8rem;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    max-width: 99.4rem;
+    margin: 0 auto;
+
+    padding: 0 4.5rem;
+
+    @media (max-width: $bp-mobile) {
+        padding: 0 2rem;
+    }
+}
